@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="ABC">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservation Form</title>
+        <style>
+            header{
+                background-color: rgb(146, 181, 247);
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            h2
+            {
+                margin-top: 5px;
+                margin: 10px;
+            }
+            body
+            {
+                border: 2px solid  rgb(146, 181, 247);
+                margin: 10px;
+                /* background-color:darkgray; */
+            }
+            .div
+            {
+                background-color: rgba(225, 238, 238, 0.534);
+            }
+            .cancelBtn
+            {
+                background-color: red;
+            }
+            .submitBtn
+            {
+                margin-right: 30px;
+                background-color: rgb(146, 181, 247);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div">
+            <header>
+                <h2>Almaguin Campground - Reservation</h2>
+            </header>
+            <table align="center">
+                <form>
+                    <tr>
+                        <th>Accomodation </th>
+                        <td>
+                            <select name="accom">
+                                <option value="RV">RV</option>
+                                <option value="RC">RC</option>
+                                <option value="RS">RS</option>
+                                <option value="RE">RE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Name </th>
+                        <td>
+                            <select name="name">
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Ms">Ms</option>
+                                <option value="Dr">Dr</option>
+                            </select>
+                            <input type="text" name="fname" placeholder="First Name" />
+                            <input type="text" name="lname" placeholder="Last Name" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Guests</th>
+                        <td>
+                            <input type="text" name="gyears" placeholder="18+ years" />
+                            <input type="text" name="gyears2" placeholder="2-17 years" />
+                            <input type="text" name="gyears3" placeholder="<2 years" />
+    
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Contact</th>
+                        <td>
+                            <input type="email" name="mail" placeholder="E-mail">
+                            <br>
+                            <input type="tel" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone: xxx - xxx - xxxx" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Checkin</th>
+                        <td>
+                            <input type="date" name="checkinDate" />
+                            <label for="checkoutDate"><b>Checkout</b></label>
+                            <input type="date" name="checkoutDate" />                                              
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Equipment type</th>
+                        <td>
+                            <select name="eqptype">
+                                <option value=" Travel trailer">Travel trailer</option>
+                                <option value="Fifth Wheel">Fifth Wheel</option>
+                                <option value="RV/Motorhome">RV/Motorhome</option>
+                                <option value="Tent trailer">Tent trailer</option>
+                                <option value="Pickup camper">Pickup camper</option>
+                                <option value="Camper van">Camper van</option>
+                            </select>
+                            <label for="slideoutsOption"><b>Slide-outs</b></label>
+                            <input name="slideoutsOption" type="checkbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Required Service</th>
+                        <td>
+                            <select name="reqservice" multiple>
+                                <option value="hydro">Hydro</option>
+                                <option value="water">Water</option>
+                                <option value="sewer">Sewer</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Pets</th>
+                        <td>
+                            <input type="checkbox" name="petdcheck" value="yes/no" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Comments</th>
+                        <td>
+                            <textarea name="comments" >Additional Comments</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="submitBtn" type="submit" name="submit" value="Request Reservation" />
+                        </td>
+                        <td>
+                            <input class="cancelBtn" type="button" name="cancel" value = "Cancel"  />
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+        
+    </body>
+</html>

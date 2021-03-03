@@ -1,0 +1,42 @@
+body
+{
+    background-color: lightyellow;
+}
+h1
+{
+    background-color: blue;
+}
+a
+{
+    color: forestgreen;
+}
+#links
+{
+    background-color: #dddddd;
+    text-align: center;
+    color: red;
+}
+p
+{
+    color: blueviolet;
+}
+.maindev
+{
+    background-color: aqua;
+}
+.maindev p
+{
+    background-color: antiquewhite;
+}
+.maindev > p
+{
+    color: red;
+}
+.maindev + p
+{
+    background-color: red;
+}
+.maindev ~ p
+{
+    color: yellow;
+}
