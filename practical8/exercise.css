@@ -1,0 +1,40 @@
+body
+{
+    max-width: 900px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px solid red;
+}
+aside
+{
+    width: 150px;
+    height: 100%;
+    float: left;
+    margin: 10px;
+}
+aside .links a
+{
+    text-decoration: none;
+    display: block;
+    
+}
+a
+{
+    margin-bottom: 20px;
+}
+a:hover
+{
+    background-color: #cdb4db;
+}
+article
+{
+    margin-left: 160px;
+    margin-right: 10px;
+}
+.heading
+{
+    height: 30px;
+    background-color:black;
+    color: white;    
+    padding: 10px;
+}

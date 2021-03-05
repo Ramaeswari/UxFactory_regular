@@ -10,11 +10,16 @@ a
 {
     color: forestgreen;
 }
+#links a
+{
+    
+    color: red;
+}
 #links
 {
+    width: 100%;
     background-color: #dddddd;
     text-align: center;
-    color: red;
 }
 p
 {
@@ -39,4 +44,8 @@ p
 .maindev ~ p
 {
     color: yellow;
+}
+.maindev ~ div
+{
+    background-color: black;
 }
