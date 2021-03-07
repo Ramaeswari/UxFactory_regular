@@ -1,0 +1,67 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    /* background-color: #adb5bd; */
+    background-image: url('https://www.lancerindia.com/wp-content/uploads/2017/12/employee-background-internal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header
+{
+    height: 60px;
+    background-color: #560bad;
+    color: white;
+    padding-top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/* .loginform
+{
+    width: 50%;
+    height: 500px;
+} */
+.loginform form
+{
+    margin: 60px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 20px;
+}
+label
+{
+    margin-right: 10px;
+}
+input
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.submitbtn
+{
+    background-color: #560bad;
+    color: white;
+}
+.cancelbtn
+{
+    background-color: #f94144;
+    margin-left: 20px;
+    color: white;
+}
+footer
+{
+    margin-top: 650px;
+    background-color:#560bad ;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
