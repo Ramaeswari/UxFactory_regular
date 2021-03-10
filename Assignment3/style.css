@@ -1,0 +1,72 @@
+/* .rows
+{
+    height: 900px;
+} */
+.columns
+{
+    float: left;
+    width: 23%;
+    padding: 0 10px;
+    /* border: 2px solid gray; */
+}
+.mblName,.price, .discount
+{
+    text-align: center;
+}
+
+.cards
+{
+    border: 1px solid gray;
+    padding: 16px;
+    background-color: #fcf7ff;
+}
+.square {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.square1
+{
+    background-color: green;
+}
+.square2
+{
+    background-color: #ffc300;
+}
+.discount b
+{
+    color: rgb(228, 20, 20);
+}
+img
+{
+    padding-left: 50px;
+    color: rgb(231, 228, 228);
+}
+li
+{
+    margin-bottom: 5px;
+}
+
+span
+{
+    color: #d3d3d3;
+}
+.dashedLine
+{
+    border: 1px dashed black;
+   
+}
+button
+{
+    text-align: center;
+    width: 320px;
+    padding: 5px;
+    border-color: red;
+    color: #e5383b;
+    font-size: 20px;
+}

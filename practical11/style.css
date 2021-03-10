@@ -1,0 +1,135 @@
+.translateTransform,.transformClass .rotateTransform,.scaleXTransform,.scaleYTransform,
+.scaleTransform,.rotateXTransform,.rotateYTransform,.rotateZTransform,.skewTransform,
+.skewXTransform,.skewYTransform,.matrixTransform
+{
+    height: 100px;
+    width: 150px;
+    background-color: aqua;
+}
+.translateTransform
+{
+    transform: translate(60px);
+}
+.transformClass .rotateTransform
+{
+    transform: rotate(130deg);
+}
+.rotateXTransform
+{
+    transform: rotateX(210deg);
+}
+.rotateYTransform
+{
+    transform: rotateY(120deg);
+}
+.rotateZTransform
+{
+    transform: rotateZ(20deg);
+}
+.scaleXTransform
+{
+    transform: scaleX(1);
+}
+.scaleYTransform
+{
+    transform: scaleY(0.5);
+}
+.scaleTransform
+{
+    transform: scale(0.5,0.5);
+}
+.skewTransform
+{
+    transform: skew(10deg,20deg);
+}
+.skewXTransform
+{
+    transform: skewX(125deg);
+}
+.skewYTransform
+{
+    transform: skewY(30deg);
+}
+.matrixTransform
+{
+    transform: matrix(1,2,1,3,1,1);
+    margin-top: 150px;
+}
+.Transform3d
+{
+    margin-top: 250px;
+}
+.rotate3dTransform
+{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(138, 43, 226);
+    transform: rotate3d(1,1,3,190deg);
+    margin-top: 150px;
+}
+.animation
+{
+    position: relative;
+    left: 20%;
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in-out;
+}
+@keyframes colors
+{
+    0%{
+        color: #03045e;
+        /* top: 0px;
+        left: 0px; */
+        transform: rotate(130deg);
+    }
+    25%{
+        color: #6930c3;
+        /* right: 200px;
+        bottom: 0px; */
+        transform: rotateX(21deg);
+    }
+    50%{
+        color: #c1121f;
+        /* top: 300px;
+        right: 500px; */
+        transform: rotateY(120deg);
+    }
+    75%{
+        color: #f5cc00;
+        /* left: 0px;
+        bottom: 300px; */
+        transform: rotateZ(20deg);
+    }
+    100%{
+        color: #d81159;
+        /* left: 0px;
+        top: 0px; */
+        transform: rotateX(180deg);
+        
+    }
+}
+.tooltip
+{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+.tooltip .tooltiptext
+{
+    visibility: hidden;
+    width: 280px;
+    background-color: #03045e;
+    color: aqua;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0;
+
+}
+.tooltip:hover .tooltiptext
+{
+    visibility: visible;
+}

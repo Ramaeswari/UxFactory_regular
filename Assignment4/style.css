@@ -1,0 +1,112 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    background-color: #f5f3f4;
+    height: 60px; 
+}
+h1
+{
+    display: inline;
+    padding-left: 200px;
+    /* padding-top: 20px; */
+}
+header i
+{
+    /* float: right; */
+    padding-left: 850px;
+    padding-bottom: 5px;
+    
+}
+header p
+{
+    display: inline;
+    float: right;
+    padding-right: 190px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+header span
+{
+    color: #4361ee;
+}
+.navbar
+{
+    padding-left: 200px;
+}
+.navbar li 
+{
+    display: inline;
+}
+.navbar
+{
+    margin-top: 10px;
+}
+.navbar ul
+{
+    display: inline;
+}
+input
+{
+    float: right;
+    margin-right: 200px;
+}
+li a
+{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: blue;
+}
+.row
+{
+    margin-top: 10px;
+}
+div .row
+{
+    margin-top: 10px;
+    height: 400px;
+    
+}
+img
+{
+    float: left;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.card
+{
+    background-color: #fb6107;
+    height: 200px;   
+}
+#lefticon
+{
+    padding-top: 20px;
+    color: white;
+}
+.card .heading
+{
+    padding-top: 50px;
+    color: white;
+    /* float: left; */
+}
+.card p
+{
+    padding-top: 20px;
+    color: white;
+    float: left;
+    padding-left: 100px;
+}
+.card #righticon
+{
+    padding-left: 250px;
+    padding-top: 50px;
+    color: white;
+}
