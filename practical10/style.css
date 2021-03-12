@@ -1,0 +1,70 @@
+:root
+{
+    --green: green;
+}
+.buttonsClass button
+{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2em;
+    cursor: pointer;
+}
+.buttonsClass button:hover
+{
+    background-color: aquamarine;
+    color: blue;
+}
+.pagination a
+{
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    color:deeppink;
+    
+}
+.multiColumnLayout
+{
+    column-count: 4;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-width: 2px;
+    column-rule-color: crimson;
+    color: var(--green);
+}
+.resizeProperty
+{
+    border: 2px solid;
+    padding: 30px;
+    margin: 30px;
+    width: 300px;
+    overflow: auto;
+    resize: both;
+}
+.outlineProperty
+{   
+    border: 2px solid red;
+    outline: 6px dashed green;
+    outline-offset: 20px;
+}
+.flexboxContainer
+{
+    /* background-color: blue;
+    height: 300px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+}
+.flexbox
+{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+}

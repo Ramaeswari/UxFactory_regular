@@ -1,0 +1,57 @@
+.lastDiv
+{
+    height: 280px;
+    background-color: gray;
+    padding-left: 20%;
+    margin-top: 10px;
+}
+.columns3
+{
+    float: left;
+    width: 25%;
+    height: 200px;
+    padding: 0 10px;
+}
+.cardsPart5 .images
+{
+    float: left;
+    margin-right: 10px;
+    
+}
+.cardsPart5 h5
+{
+    color: #8ac926;
+    margin-top: 30px;
+}
+h5{
+    margin-top: 30px;
+}
+.cardsPart5 b,p
+{
+    display: block;
+    margin-bottom: 50px;
+    float: none;
+}
+.mobilePrices span
+{
+    color: #48cae4;
+}
+.cardsPart5 .firstpar
+{
+    color: #7209b7;
+}
+.fbIcon, .twitterIcon
+{
+    margin-top: 10px;
+    font-size: 25px;
+    color: gray;
+}
+.footerDiv
+{
+    text-align: center;
+}
+.footerDiv p
+{
+    color: gray;
+    margin-top: 0;
+}

@@ -3,12 +3,13 @@
     padding: 0;
     margin: 0;
 }
+/* header styling */
 header
 {
     background-color: #f5f3f4;
     height: 60px; 
 }
-h1
+header h1
 {
     display: inline;
     padding-left: 200px;
@@ -17,7 +18,7 @@ h1
 header i
 {
     /* float: right; */
-    padding-left: 850px;
+    padding-left: 840px;
     padding-bottom: 5px;
     
 }
@@ -26,13 +27,14 @@ header p
     display: inline;
     float: right;
     padding-right: 190px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 15px;
+    /* padding-left: 10px; */
 }
 header span
 {
     color: #4361ee;
 }
+/* navigation bar styling */
 .navbar
 {
     padding-left: 200px;
@@ -49,10 +51,22 @@ header span
 {
     display: inline;
 }
-input
+.searchBtn
 {
     float: right;
+    width: 150px;
     margin-right: 200px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.808);
+    text-align: left;
+}
+
+.searchIcon
+{
+    float: right;
+    margin-right: 5px;
+    margin-top: 3px;
 }
 li a
 {
@@ -74,39 +88,265 @@ div .row
     height: 400px;
     
 }
-img
+.card img
 {
     float: left;
-    padding-left: 300px;
-    padding-top: 10px;
-    padding-right: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 60px;
 }
+/* mobile advertisment div styling */
 .card
 {
-    background-color: #fb6107;
-    height: 200px;   
+    background-color: #fb6007dc;
+    height: 250px;   
 }
 #lefticon
 {
-    padding-top: 20px;
+    float: left;
+    padding-left: 250px;
+    padding-top: 120px;
     color: white;
 }
 .card .heading
 {
-    padding-top: 50px;
+    padding-top: 30px;
     color: white;
     /* float: left; */
+    /* padding: 50px; */
+    margin-right: 80px;
+    font-weight: 100;
 }
 .card p
 {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     color: white;
-    float: left;
+    /* float: left; */
+    /* margin-left: 100px; */
     padding-left: 100px;
 }
+.card button
+{
+    float: left;
+    /* margin-bottom: 50px; */
+    /* margin-left: 10px; */
+    /* margin-top: 0px; */
+    background-color: black;
+    padding: 8px;
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+}
+/* .middle-content
+{
+    padding-top: 30px;
+} */
 .card #righticon
 {
-    padding-left: 250px;
-    padding-top: 50px;
+    padding-left: 400px;
+    /* padding-top: 10px; */
     color: white;
+    padding-bottom: 60px;
+    
+}
+/* Mobile types div styling */
+.rows, .rows1
+{
+    padding-left: 20%;
+    margin-top: 10px;
+    /* margin-right: 30px; */
+    /* padding-right: 20%; */
+    /* margin-right: 25%; */
+}
+.columns, .columns1, .columns2, .columns3
+{
+    float: left;
+    width: 25%;
+    height: 200px;
+    padding: 0 10px;
+    /* padding-left: 25%; */
+}
+.cards1
+{
+    color: white;
+    background-color: #48cae4;
+}
+.cards2
+{
+    background-color: #7209b7;
+    color: white;
+}
+.cards3
+{
+    background-color: #8ac926;
+    color: white;
+    /* margin-right: 23%; */
+    float: none;
+}
+.cards3 img
+{
+    border-color: white;
+    color: white;
+}
+ .icons
+{
+    font-size: 70px;
+    float: left;
+    padding: 15px;
+}
+.card1Head
+{
+    font-size: 40px;
+    font-weight: 10;
+}
+.firstPara
+{
+    margin-top: 31px;
+    padding: 15px;
+}
+.secondPara
+{
+    /* margin-top: 10px; */
+    padding: 15px;
+}
+/* New products and Best sellers div styling */
+.part5Heading, .part7Heading, .part9Heading
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 1090px;
+    margin-left: 220px;
+    display: block;
+} 
+.cardsPart3
+{
+    border: 1px solid gainsboro;
+    height: 200px;
+}
+.cardsPart3 .images
+{
+    padding: 10px;
+    float: left;
+}
+.stars
+{
+    margin-top: 20px;
+    color: goldenrod;
+    font-size: 10px;
+    display: inline-block;
+}
+.mobileNames, .mobilePrices
+{
+    margin: 5px;
+    /* margin-top: 0; */
+}
+#para
+{
+    margin-bottom: 0;
+}
+.cardsPart3 .cartBtns
+{
+    background-color: #7209b7;
+    color: white;
+    padding: 5px;
+}
+/* From the blog div styling */
+.part7Heading
+{
+    margin-right: 1110px;
+}
+.cardsPart4 .commentTag
+{
+    margin-top: 10px;
+}
+.cardsPart4 span
+{
+    color: #7209b7;
+}
+.cardsPart4 a
+{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #48cae4;
+}
+/* last div styling */
+.lastDiv
+{
+    float: left;
+    margin-top: 100px;
+    width: 100%;
+    padding-left: 300px;
+    /* background-color: rgb(211, 207, 207); */
+    background-color: gray;
+}
+
+.lastDiv .columns3
+{
+    width: 25%;
+    /* background-color: rgb(211, 207, 207);  */
+    height: 250px;
+    /* margin-left: 300px; */
+}
+ .cardsPart5 .images
+{
+    float: left;
+}
+.cardsPart5 b
+{
+    display: block;
+} 
+ 
+.cardsPart5 .images
+{
+    float: left;
+    margin-right: 10px;
+    
+}
+.cardsPart5 h5
+{
+    color: #8ac926;
+    margin-top: 30px;
+}
+h5{
+    margin-top: 30px;
+}
+.cardsPart5 b,p
+{
+    display: block;
+    margin-bottom: 50px;
+    float: none;
+}
+.mobilePrices span
+{
+    color: #48cae4;
+}
+.cardsPart5 .firstpar
+{
+    color: #7209b7;
+}
+/* Footer styling */
+.fbIcon, .twitterIcon
+{
+    margin-top: 10px;
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+.footerDiv
+{
+    margin-left: 500px;
+    float: left;
+    text-align: center;
+}
+.footerDiv p
+{
+    
+    color: gray;
+    margin-top: 0;
+}
+#lastimg
+{
+    margin-top: 20px;
+    margin-left: 0;
+    float: left;
 }

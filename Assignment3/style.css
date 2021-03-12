@@ -56,10 +56,9 @@ span
 {
     color: #d3d3d3;
 }
-.dashedLine
+.dashedLineTop, .dashedLineBtm
 {
-    border: 1px dashed black;
-   
+    border-top: 2px dashed black;
 }
 button
 {
