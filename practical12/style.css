@@ -1,0 +1,12 @@
+.container
+{
+    background-color: aqua;
+    height: 60px;
+    margin-top: 20px;
+    
+}
+.container .row
+{
+    text-align: center;
+    /* float: right; */
+}

@@ -2,23 +2,37 @@
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
 }
 #icon
 {
     float: left;
-    margin-right: 20px;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1px solid;
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 5px;
     border-radius: 50%;
 }
-.heading
+.navbar .heading
 {
     float: left;
+    margin-top: 13px;
+    margin-right: 100px;
 }
 header
 {
-    background-color: darkblue;
-    max-width: 100%;
-    height: 60px;
+    background-color: #002147;
+    width: 100%;
+    height: 70px;
     padding-top: 10px;
     color: white;
 }
@@ -27,17 +41,117 @@ header .navbar li
     display: inline;
     float: left;
     padding: 10px;
-    
+    margin-top: 5px;
 }
 li a
 {
     text-decoration: none;
     color: white;
+    margin-right: 18px;
 }
-.button
+ .navbar button
 {
     float: right;
-    margin: 20px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    /* margin-bottom: 5px; */
+    margin-right: 60px;
     background-color: yellow;
+    border: none;
+    padding: 6px;
+}
+.mainContent
+{
+    background-image: url('images/1-1.jpg');
+    height: 500px;
+    color: white;
+}
+.mainContent .divPart1
+{
+    text-align: center;
+}
+.mainContent h3
+{
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.mainContent button
+{
+    padding: 15px;
+    margin-top: 50px;
+    border: none;
+    background-color: #002147;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.rows
+{
+    /* position: relative; */
+    display: flex;
+    /* width: 30%; */
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.card1, .card2, .card3
+{
+    /* padding-top: 0; */
+    margin-left: 3px;
+    height: 160px;
+    width: 450px;
+    background-color: #002147;
+    /* text-align: center; */
+}
+.columns .heading
+{
+    /* display: inline; */
+    /* margin-bottom: 10px; */
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    margin-left: 30px;
+    text-align:start;
+    margin-bottom: 10px;
+}
+.columns .icon
+{
+    float: right;
+    /* display: block; */
+    padding-right: 40px;
+    /* padding-left: 290px; */
+    font-size: 30px;
+    color: yellow;
+}
+.columns .text
+{
+    float: none;
+    /* padding-top: 10px; */
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.card3 .icon
+{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.card2 .icon
+{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.content 
+{
+    margin-top: 70px;
+    text-align: center;
+}
+.content .heading
+{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #002147;
+}
+.content .text
+{
+    margin-bottom: 25px;
 }
