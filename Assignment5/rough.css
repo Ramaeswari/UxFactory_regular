@@ -1,0 +1,17 @@
+.usefulLinks{background:rgb(248, 248, 248);padding:0 15px !important;margin:-5px 0 0 !important;}
+.usefulLinks h2 span{ font-size:18px; color:#05172b; border-bottom:2px solid #00aade; padding-bottom:5px; }
+/* .usefulLinks ul { margin-top:10px;} */
+.usefulLinksSet1{ margin-top:10px !important;}
+.listLinksSet1{ margin-bottom: 0px !important;}
+.usefulLinks ul li{border:none;list-style-position:outside;background:url(../images/icon_usefulLinks.png) no-repeat left center;}
+.usefulLinks ul li a{ color:#05607d; cursor: pointer; }
+.usefulLinks ul li:hover a{ color:#04192a; text-decoration:underline !important; cursor: pointer;}
+.otherLinkBtn a{ border:1px solid #00a9df; padding:10px 25px 10px 40px; display:inline-block; margin-bottom:25px; background:url(../images/icon_otherLink.png) no-repeat 20px center; color:#00a9df !important; cursor: pointer; }
+/*.otherLinkBtn a:hover{background:url(../images/icon_otherLinkHover.png) no-repeat 20px center; color:#00a9df; }*/
+#otherLinksBlock { display:none;}
+.usefulLinks h2{margin:10px 0px 10px ;}
+.padListZero{padding-right: 0px !important;}
+ .panelUsefulLink {
+		 top: -10px;
+		 position: relative;
+         }

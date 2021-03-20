@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Bootstrap modal component practice">
+        <meta name="author" content="eswari">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modal Component</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    </head>
+    <body>
+        <h3>Modal Component In Bootstrap</h3>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalComExample">
+            Click Me For Open Modal
+        </button>
+        <div class="modal" id="modalComExample" data-backdrop="static">
+            <div class="modal-dialog">
+                <!-- class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-dialog-centered-scrollable" -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4>
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        Modal is a dialog box or popup window that is used to provide important information to the user.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Save Changes</button>
+                        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" data-toggle="modal" data-target="#FormInsideModal" data-whatever="@eswari">Open Modal For @eswari</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FormInsideModal" data-whatever="@rama">Open modal for @rama</button>
+        <div class="modal" id="FormInsideModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Message</h4>
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name" class="col-form-label">Recipient Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="msg-text" class="col-form-label">Message</label>
+                                <textarea class="form-control" id="msg-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Send Message</button>
+                        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </body>
+</html>
