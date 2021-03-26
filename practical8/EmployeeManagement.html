@@ -13,26 +13,40 @@
             <h1>Employees Management System</h1>
         </header>
         <div class="loginform">
-            <form action="Admin.html">
+            <form action="">
                 <label for="username">UserName</label>
-                <input type="text" name="username" placeholder="Enter your UserName" /><br>
+                <input type="text" name="username" placeholder="Enter your UserName" id="name"/><br>
                 <label for="pwd">Password</label>
-                <input type="password" name="pwd" placeholder="Password"><br>
-                <input type="submit" value="Submit" class="submitbtn">
-                <input type="button" value="Cancel" class="cancelbtn">
+                <input type="password" name="pwd" placeholder="Password" id="pwd"><br>
+                <input type="submit" value="Submit" class="submitbtn" onclick="validation()">
+                <input type="button" value="Cancel" class="cancelbtn" >
             </form>
         </div>
         <footer>All rights reserved. @2020 copyright</footer>
         <script lang="javascript">
-            function check(form)
+            // function check(form)
+            // {
+            //     if(form.username == "Employee" && form.pwd == "1234")
+            //     {
+            //         window.open('EmployeeHomePage.html')
+            //     }
+            //     else if(form.username == "Admin" && form.pwd == "1234")
+            //     {
+            //         window.open('Admin.html')
+            //     }
+            // }
+
+            function validation()
             {
-                if(form.username == "Employee" && form.pwd == "1234")
+                var userName = document.getElementById("name").value;
+                var userPassword = document.getElementById("pwd").value;
+                if(userName == "Employee" && userPassword == "1234")
                 {
-                    window.open('EmployeeHomePage.html')
+                    window.open("EmployeeHomePage.html");
                 }
-                else if(form.username == "Admin" && form.pwd == "1234")
+                else if(userName == "Admin" && userPassword == "1234")
                 {
-                    window.open('Admin.html')
+                    window.open("Admin.html");
                 }
             }
         </script>

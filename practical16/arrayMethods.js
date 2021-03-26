@@ -22,6 +22,37 @@ console.log(sortResult);
 var numbers = [1, 2, 3, 10, 20];
 console.log(numbers.includes(6));
 
+//join method
+console.log(numbers);
+console.log(numbers.join());
+
+//isArray method
+console.log(Array.isArray([10, 20, 30]));
+console.log(Array.isArray({hai: "hello"}));
+console.log(Array.isArray("helo"));
+
+//push
+var animals = ['cows', 'elephants', 'fox'];
+
+var countAnimals = animals.push('pigs');
+console.log(countAnimals);
+console.log(animals);
+
+animals.push('chickens', 'cats', 'dogs');
+console.log(animals);
+
+//pop
+var popResult = animals.pop();
+console.log(popResult);
+
+//shift
+var shiftResult = animals.shift();
+console.log(shiftResult);
+
+//unshift
+var unshiftResult = animals.unshift('ants');
+console.log(unshiftResult);
+
 //splice method
 var fruits = ['apple', 'banana', 'pineapple', 'watermelon', 'pomegranate'];
 var result = fruits.splice(2, 1, 5, 6);

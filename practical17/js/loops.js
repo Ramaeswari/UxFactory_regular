@@ -64,3 +64,19 @@ do
     i++;
 }
 while(i < array1.length)
+
+//for of loop
+var arr = [10, 20,30, 40];
+for(var i of arr)
+{
+    console.log(i);
+}
+
+const shark = {
+    species: "great white",
+    color: "white",
+    numberOfTeeth: Infinity
+}
+for (var i in shark) {
+    console.log(i);
+}

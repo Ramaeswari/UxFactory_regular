@@ -13,6 +13,20 @@ header
     position: sticky;
     top: 0;
 }
+.leftNav
+{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    font-size: 15px;
+}
+.leftNav li,a
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
 aside
 {
     width: 20%;
