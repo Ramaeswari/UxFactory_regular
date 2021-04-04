@@ -83,3 +83,19 @@ console.log(perName, age, personId);
 
 let {perName: pN, personId: pId, personJob: job = "Developer"} = personDetails;
 console.log(pN, pId, job);
+
+//spread operator
+const arr = [10, 20, 30, 40];
+const arr1 = [50, 60, 70, 80];
+const arr2 = [...arr, ...arr1];
+console.log(arr2);
+
+console.log(Math.max(...arr2));
+
+//rest operator
+function getSum(...array)
+{
+    return array;
+}
+let getSumObj = new getSum([1, 2, 3, 4], [6, 7, 8, 9], [10, 11, 12, 13, 14, 15]);
+console.log(getSumObj);

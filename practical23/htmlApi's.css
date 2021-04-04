@@ -1,0 +1,22 @@
+#dragContainer
+{
+    width: 60px;
+    height: 60px;
+    border: 2px solid wheat;
+    background-color: wheat;
+    display: inline-block;
+}
+#dropContainer
+{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 10px;
+    background-color: red;
+}
+.bg-success
+{
+    margin-bottom: 50px;
+    padding: 10px;
+}
