@@ -1,0 +1,14 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome Page</title>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Welcome!! <span id="name" style="color: palevioletred;"></span> !</h2>
+        <script>
+            document.getElementById("name").innerHTML = localStorage.getItem("textValue");
+        </script>
+    </body>
+</html>

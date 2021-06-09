@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DataList Elements</title>
+    </head>
+    <body>
+        <h2 style="text-align: center;">New Form Elements Exmaple</h2>
+        <form action="" method="get" oninput="amount.value = (hours.valueAsNumber * charge.valueAsNumber) + (hours.valueAsNumber * extra.valueAsNumber)">
+            <h3>DataList</h3>    
+            <label for="browser">Choose your browser from the list:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist><br>
+            <h3>Keygen tag</h3>
+            Username: <input type="text" name="usr_name">
+            Encryption: <keygen name="key">
+          
+            <h3>Output tag</h3>
+            <p>
+                <label>Hours : </label>
+                <input type="number" min="0" id="hours" name="hours">
+            </p>
+            <p>
+                <label>Charge : </label>
+                <input type="number" min="0" id="charge" name="charge">
+            </p>
+            <p>
+                <label>Others : </label>
+                <input type="number" min="0" id="extra" value="0.5" name="other">
+            </p>
+            <p>
+                Total : <strong>$ <output name="amount" id="amount">0</output></strong>
+            </p>
+            <input type="submit">
+          </form>          
+    </body>
+</html>

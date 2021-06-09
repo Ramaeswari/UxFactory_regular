@@ -1,6 +1,6 @@
 body
 {
-    background-color: lightyellow;
+    background-color: rgb(243, 243, 126);
 }
 h1
 {
@@ -29,7 +29,7 @@ p
 {
     background-color: aqua;
 }
-.maindev p
+ .maindev p
 {
     background-color: antiquewhite;
 }
@@ -39,11 +39,11 @@ p
 }
 .maindev + p
 {
-    background-color: red;
+    background-color: rgb(92, 25, 25);
 }
 .maindev ~ p
 {
-    color: yellow;
+    color: rgb(207, 21, 151);
 }
 .maindev ~ div
 {

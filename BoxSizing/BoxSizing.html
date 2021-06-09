@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+            .div1 {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 1px solid blue;
+            }
+
+            .div2 {
+            width: 300px;
+            height: 100px;  
+            padding: 50px;
+            border: 1px solid red;
+            }
+            .div3 {
+            width: 300px;
+            height: 100px;
+            border: 2px solid green;
+            box-sizing: border-box;
+            }
+
+            .div4 {
+                width: 300px;
+                height: 100px;  
+                padding: 50px;
+                border: 2px solid purple;
+                box-sizing: border-box;
+            }
+            .div5{
+                width: 300px;
+                height: 100px;  
+                padding: 50px;
+                border: 3px solid darkorange;
+                box-sizing: content-box;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Without using any box sizing property</h2>
+        <div class="div1">
+            This div is smaller (width is 300px and height is 100px).
+        </div>
+        <br>
+        <div class="div2">
+            This div is bigger because padding is added(width is also 300px and height is 100px and padding is 50px).
+        </div>
+        <br>
+        <h2>Using any box sizing property</h2>
+        <div class="div3">
+            Both divs are the same size now!
+        </div>
+        <br>
+        <div class="div4">Hooray!</div>
+        <h2>content-box property</h2>
+        <div class="div5">
+            content box sizing
+        </div>
+
+        <div style="text-align: center;">
+            <h3>
+                display:"none"; and
+                visibility: "hidden";
+            </h3>
+            
+            <div class="display">
+                <b>
+                display:
+                <span style="display:none">
+                display:none
+                </span> "none";
+                </b>
+            </div>
+            <br>
+            
+            <div class="visibility">
+                <b>
+                visibility:
+                <span style="visibility:hidden">
+                visibility:hidden
+                </span> "hidden";
+                </b>
+            </div>
+        </div>
+    </body>
+</html>

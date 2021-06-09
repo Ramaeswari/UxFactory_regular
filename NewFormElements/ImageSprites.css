@@ -1,0 +1,25 @@
+ [class *="icon-"]{
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    /* background-image: url('https://www.freeiconspng.com/thumbs/facebook-logo-png/photos-facebook-logo-png-transparent-background-13.png'); */
+    background-repeat: no-repeat;
+    background-position: left top;
+    font-size: 0;
+}
+.icon-1{
+    /* background-position: 0 0; */
+    background: url('./Images/social.png') -135px -352px;
+    /* background-color: aqua; */
+}
+.icon-2{
+    background: url('./Images/social.png') -365px -352px;
+} 
+.icon-3{
+    background: url('./Images/social.png') -359px -544px;
+} 
+.icon-4{
+    background: url('./Images/social.png') -778px -716px;
+}
+
+
